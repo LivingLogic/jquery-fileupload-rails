@@ -320,7 +320,7 @@
                         );
                     };
                 if (data.url) {
-                    $.ajax(data).done(removeNode);
+                    $.ajax(data).done(removeNode());
                 } else {
                     removeNode();
                 }
